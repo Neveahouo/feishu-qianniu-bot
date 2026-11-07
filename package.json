@@ -1,0 +1,28 @@
+{
+  "name": "purchase-limit-bot",
+  "version": "1.0.0",
+  "description": "Feishu bot that automatically adjusts Taobao/Tmall (Qianniu) purchase-limit rules on demand",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test:qianniu": "node test-qianniu.js"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "qianniu",
+    "taobao",
+    "automation",
+    "playwright"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.31.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.44.0"
+  }
+}
